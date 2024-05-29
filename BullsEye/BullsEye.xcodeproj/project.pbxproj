@@ -13,6 +13,8 @@
 		E85146A72BFD9DCC008F71C2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E85146A62BFD9DCC008F71C2 /* Base */; };
 		E85146A92BFD9DCD008F71C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E85146A82BFD9DCD008F71C2 /* Assets.xcassets */; };
 		E85146AC2BFD9DCD008F71C2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E85146AB2BFD9DCD008F71C2 /* Base */; };
+		E8C381272C0739AE00E2CE70 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C381262C0739AE00E2CE70 /* AboutViewController.swift */; };
+		E8C381292C07479B00E2CE70 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = E8C381282C07479B00E2CE70 /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E85146A82BFD9DCD008F71C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E85146AB2BFD9DCD008F71C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E85146AD2BFD9DCD008F71C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8C381262C0739AE00E2CE70 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		E8C381282C07479B00E2CE70 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 		E851469E2BFD9DCC008F71C2 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				E8C381282C07479B00E2CE70 /* BullsEye.html */,
 				E851469F2BFD9DCC008F71C2 /* AppDelegate.swift */,
 				E85146A12BFD9DCC008F71C2 /* SceneDelegate.swift */,
 				E85146A32BFD9DCC008F71C2 /* ViewController.swift */,
 				E85146A52BFD9DCC008F71C2 /* Main.storyboard */,
+				E8C381262C0739AE00E2CE70 /* AboutViewController.swift */,
 				E85146A82BFD9DCD008F71C2 /* Assets.xcassets */,
 				E85146AA2BFD9DCD008F71C2 /* LaunchScreen.storyboard */,
 				E85146AD2BFD9DCD008F71C2 /* Info.plist */,
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E85146A92BFD9DCD008F71C2 /* Assets.xcassets in Resources */,
+				E8C381292C07479B00E2CE70 /* BullsEye.html in Resources */,
 				E85146AC2BFD9DCD008F71C2 /* Base in Resources */,
 				E85146A72BFD9DCC008F71C2 /* Base in Resources */,
 			);
@@ -140,6 +147,7 @@
 			files = (
 				E85146A42BFD9DCC008F71C2 /* ViewController.swift in Sources */,
 				E85146A02BFD9DCC008F71C2 /* AppDelegate.swift in Sources */,
+				E8C381272C0739AE00E2CE70 /* AboutViewController.swift in Sources */,
 				E85146A22BFD9DCC008F71C2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
